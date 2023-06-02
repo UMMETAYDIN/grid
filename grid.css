@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+.container {
+   /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 240px) 190px;
+    grid-template-rows:160px 320px 200px 120px;
+    gap: 1rem ;
+    justify-content: center;
+    color: white;
+    
+  }
+
+  .content {
+    background-color:rgb(69, 69, 247);
+    display: flex;
+    justify-content:flex-start;
+    align-items: start;
+    padding: 20px 40px;
+  }
+
+  .A1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+    
+  }
+  .A2{
+    grid-row-start: 2;
+    grid-row-end:4 ;
+  }
+
+  .A3{
+    grid-row-start: 2;
+    grid-row-end:4 ;
+  }
+  .A4{
+    grid-row-start: 2;
+    grid-row-end:4 ;
+  }
+
+  .A5{
+    grid-row-start: 2;
+    grid-row-end:5 ;
+    background-image: url('https://cdn.pixabay.com/photo/2023/04/23/09/40/bird-7945398_640.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  
+  
+
+  .A6{
+    grid-column-start:1 ;
+    grid-column-end:4 ;
+  }
+
+  .A7{
+    grid-column-start:1 ;
+    grid-column-end:5 ;
+    height: 100px;
+    
+  }
